@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+torch
+transformers
+torch-geometric
+networkx
+python-louvain
+umap-learn
+tqdm
+sentence-transformers

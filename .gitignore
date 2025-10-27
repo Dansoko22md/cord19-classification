@@ -1,0 +1,391 @@
+# ========================================
+# Python
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+
+# ========================================
+# PyTorch & Deep Learning
+# ========================================
+
+# PyTorch models
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+
+# TensorBoard logs
+runs/
+logs/
+tensorboard/
+
+# Weights and checkpoints
+checkpoints/
+weights/
+*.h5
+*.hdf5
+
+
+# ========================================
+# Data Files (IMPORTANT!)
+# ========================================
+
+# Raw dataset (trop volumineux pour Git)
+data/raw/
+data/raw/*
+*.csv
+!requirements.txt
+
+# Processed data
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.pkl
+data/processed/*.pickle
+data/processed/*.gpickle
+data/processed/*.json
+data/processed/*.parquet
+
+# Embeddings (fichiers volumineux)
+embeddings/
+*.npy
+*.npz
+
+# Graphes
+*.gpickle
+*.gexf
+*.graphml
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+
+# ========================================
+# Jupyter & Notebooks
+# ========================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook metadata
+*.ipynb_meta
+
+# Jupyter temp files
+.jupyter/
+
+
+# ========================================
+# IDE & Editors
+# ========================================
+
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+.idea/*
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+
+# ========================================
+# OS Files
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ========================================
+# Project Specific
+# ========================================
+
+# Models directory (sauf structure)
+models/*.pth
+models/*.pt
+models/*.pkl
+
+# Outputs (garder le dossier mais pas les fichiers)
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.pdf
+outputs/*.csv
+outputs/*.html
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# Configuration locale (ne pas partager)
+config_local.py
+secrets.py
+.secrets
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+
+# ========================================
+# Keep Structure (dossiers vides)
+# ========================================
+
+# Garder les dossiers mais pas leur contenu
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+!logs/.gitkeep
+
+
+# ========================================
+# Optional: Fichiers de test
+# ========================================
+
+# Tests et données de test
+test_data/
+test_outputs/
+*_test.py
+test_*.py
+
+
+# ========================================
+# Divers
+# ========================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compressed files
+*.gz
+*.bz2
+*.xz
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node (si vous utilisez des outils JS)
+node_modules/
+package-lock.json
+
+# R (si vous utilisez R)
+.Rhistory
+.RData
+.Rproj.user/
