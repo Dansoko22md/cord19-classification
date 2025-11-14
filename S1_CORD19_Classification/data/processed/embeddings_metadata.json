@@ -1,0 +1,7 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "num_articles": 816359,
+  "normalized": true,
+  "device": "cpu"
+}

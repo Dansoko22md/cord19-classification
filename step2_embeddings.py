@@ -10,7 +10,7 @@ import json
 class EmbeddingsGenerator:
     """Classe pour générer des embeddings d'articles scientifiques"""
     
-    def __init__(self, model_name='all-MiniLM-L6-v2'):
+    def __init__(self, model_name='SciBERT'):
         """
         Initialise le générateur d'embeddings
         

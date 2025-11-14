@@ -1,0 +1,15 @@
+{
+  "num_nodes": 816359,
+  "num_edges": 4783609,
+  "density": 1.4355682080439105e-05,
+  "num_communities": 187,
+  "modularity": 0.8975666097754942,
+  "created_at": "2025-11-04T17:33:32.101590",
+  "builder_version": "3.1_batched_faiss",
+  "formats_available": [
+    "gpickle",
+    "gexf",
+    "graphml",
+    "edgelist"
+  ]
+}
