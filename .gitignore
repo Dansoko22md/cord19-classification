@@ -175,13 +175,6 @@ data/raw/*
 !requirements.txt
 
 # Processed data
-data/processed/*.npy
-data/processed/*.npz
-data/processed/*.pkl
-data/processed/*.pickle
-data/processed/*.gpickle
-data/processed/*.json
-data/processed/*.parquet
 
 # Embeddings (fichiers volumineux)
 embeddings/
